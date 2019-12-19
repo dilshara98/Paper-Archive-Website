@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<title>PaperArchive.com</title>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/undergrad.js"></script>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/custom.css">
+</head>	
+
+<body>
+	<!-- this is the header. common to all pages. -->
+	<div class="common-head container">
+		<h1>PaperArchive.com</h1>
+		<h4>The leading source for Sri Lankan past-papers.</h4>
+	</div>
+
+	<hr>
+
+	<!-- this is the menu. common to all pages. -->
+	<div class="menu container">
+		<button class="btn btn-primary" onclick="window.location.href='papers.html'"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Find Papers</button>
+		<div class="btn-group" role="group">
+			<button class="btn btn-default" onclick="window.location.href='index.html'"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</button>
+			<button class="btn btn-default" onclick="window.location.href='feedback.html'"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> Feedback</button>
+			<button class="btn btn-default" onclick="window.location.href='about.html'"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> About</button>
+		</div>
+	</div>
+	
+	<hr>
+
+	<!-- this content is only for this page. not common. -->
+	<div class="container content">
+		<select class="form-control form-control-lg" onchange="uniChangeHandler()" id="uniSelector">
+			<option value="uoc">University of Colombo</option>
+			<option value="susl">Sabaragamuwa University of Sri Lanka</option>
+			<option value="saitm">SAITM</option>
+			<option value="uop">University of Peradeniya</option>
+			<option value="mora">University of Moratuwa</option>
+		</select>		
+		
+		<br>
+
+		<select class="form-control form-control-lg" id="facultySelector" onchange="facultyChangeHandler()">
+		</select>
+		
+		<br>
+
+		<select class="form-control form-control-lg" id="degreeSelector">
+		</select>
+
+		<br>
+
+		<select class="form-control form-control-lg">
+			<option>Year 1 Semester 1</option>
+			<option>Year 1 Semester 2</option>
+			<option>Year 2 Semester 1</option>
+			<option>Year 2 Semester 2</option>
+			<option>Year 3 Semester 1</option>
+			<option>Year 3 Semester 2</option>
+			<option>Year 4 Semester 1</option>
+			<option>Year 4 Semester 2</option>
+		</select>
+		
+		<br>
+
+		<div class="container">
+			<button class="btn btn-primary" onclick="window.location.href='paper.pdf'">Download Paper</button>
+		</div>
+	</div>
+
+	<hr>
+
+	<!-- this is the footer. common to all pages. -->
+	<div class="common-foot container well">
+		<h4> PaperArchive.com is the leading source for Sri Lankan past papers. Share the word.</h4>		
+		<p>Made with <span class="glyphicon glyphicon-heart-empty"></span> by CIS_SUSL_2016 HCI Group.</p>
+	</div>
+</body>
+</html>

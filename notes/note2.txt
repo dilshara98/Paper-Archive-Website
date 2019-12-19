@@ -1,0 +1,66 @@
+7:50 PM 12/29/2018
+Starting over.
+Using different pages for each of the CATEGORIES.
+Tree remains the same (copied below).
+
+COPY
+The Categories/ Submenus will be as follows:
+
+Secondary	<--- level1 menu
+Grade		<--- level2 menu
+Subjects	<--- level3 menu
+Year		<--- level4 menu
+
+OL
+Subjects
+Year
+
+AL
+Stream
+Subjects
+Year
+
+Undergraduate
+University
+Faculty
+Degree
+Year and Semester
+END COPY
+
+---------------------------------------
+8:59 PM 12/29/2018
+Javascript sucks.
+Going with the page-by-page ultra-dumb approach.
+Jesus take the wheel!
+
+----------------------------------------
+11:41 PM 12/29/2018
+Page by page is a clusterfuck.
+Using a little JS to dynamically populate
+lists.
+EG: only maths subjects visible when
+you select maths stream in AL papers.
+
+------------------------------------------
+12:02 AM 12/30/2018
+Writing list change handlers for UNIs and FACs.
+All simple JS.
+But the data is hard-coded for now.
+
+------------------------------------------
+12:23 AM 12/30/2018
+Dataset done.
+Moving on to design actual.
+
+-----------------------------------------
+1:30 AM 12/30/2018
+Basic design in place. 
+With custom css bits.
+Should be easy to edit.
+Only feedback form left.
+----------------------------------------
+1:58 AM 12/30/2018
+Bit more messing around.
+Feedback seems about done.
+This can be released as an early version.
+RELEASE : Version 0.1

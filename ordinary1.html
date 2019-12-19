@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<title>PaperArchive.com</title>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/custom.css">
+</head>	
+
+<body>
+	<!-- this is the header. common to all pages. -->
+	<div class="common-head container">
+		<h1>PaperArchive.com</h1>
+		<h4>The leading source for Sri Lankan past-papers.</h4>
+	</div>
+
+	<hr>
+
+	<!-- this is the menu. common to all pages. -->
+	<div class="menu container">
+		<button class="btn btn-primary" onclick="window.location.href='papers.html'"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Find Papers</button>
+		<div class="btn-group" role="group">
+			<button class="btn btn-default" onclick="window.location.href='index.html'"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</button>
+			<button class="btn btn-default" onclick="window.location.href='feedback.html'"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> Feedback</button>
+			<button class="btn btn-default" onclick="window.location.href='about.html'"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> About</button>
+		</div>
+	</div>
+	
+	<hr>
+
+	<!-- this content is only for this page. not common. -->
+	<div class="container content">		
+		<select class="form-control form-control-lg">
+			<option>Science</option>
+			<option>Mathematics</option>
+			<option>Sinhala</option>
+			<option>English</option>
+			<option>Buddhism</option>
+			<option>History</option>
+			<option>French</option>
+			<option>Geography</option>
+			<option>Commerce</option>
+			<option>Drama and Theatre</option>
+			<option>Art</option>
+			<option>Dancing</option>
+			<option>Oriental Music</option>
+			<option>Western Music</option>
+			<option>Health and Physical Education</option>
+			<option>Home Science</option>
+			<option>Motor Mechanism</option>
+		</select>
+		
+		<br>
+
+		<select class="form-control form-control-lg">
+			<option>2014</option>
+			<option>2015</option>
+			<option>2016</option>
+			<option>2017</option>
+			<option>2018</option>
+		</select>
+
+		<br>
+	
+		<div class="container">
+			<button class="btn btn-primary" onclick="window.location.href='paper.pdf'">Download Paper</button>
+		</div>		
+	</div>
+
+	<hr>
+
+	<!-- this is the footer. common to all pages. -->
+	<div class="common-foot container well">
+		<h4> PaperArchive.com is the leading source for Sri Lankan past papers. Share the word.</h4>		
+		<p>Made with <span class="glyphicon glyphicon-heart-empty"></span> by CIS_SUSL_2016 HCI Group.</p>
+	</div>
+</body>
+</html>

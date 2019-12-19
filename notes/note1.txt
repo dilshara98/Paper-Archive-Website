@@ -1,0 +1,42 @@
+Developer Notes.
+----------------------------------
+11:08 AM 12/28/2018
+
+The Categories/ Submenus will be as follows:
+
+Secondary	<--- level1 menu
+Grade		<--- level2 menu
+Subjects	<--- level3 menu
+Year		<--- level4 menu
+
+OL
+Subjects
+Year
+
+AL
+Stream
+Subjects
+Year
+
+Undergraduate
+University
+Faculty
+Degree
+Year and Semester
+-----------------------------
+12:08 PM 12/28/2018
+Using XMLHttpRequest() to get server side text file
+containing the further branches of the menus.
+-------------------------------
+12:21 PM 12/28/2018
+loadFirstLevelList() was generalized to readDataAndCall(p,cb)
+
+------------------------------------
+1:41 PM 12/28/2018
+CORS Error.
+CORS request not HTTP.
+Tried many solutions.
+Now trying to host it on a local server. 
+(Downloading WAMP) --> Apache server
+UPDATE :::: WAMP SERVER FIXED THE CORS ERROR!
+--------------------------------------
